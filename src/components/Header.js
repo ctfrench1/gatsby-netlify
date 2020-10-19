@@ -3,6 +3,7 @@ import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from 'react-bootstr
 import {Link} from "gatsby";
 
 export default (props) => (
+  <header>
 <Navbar bg="light" expand="xs">
   <Navbar.Brand href="/">Awesome-Bootstrap</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -14,4 +15,5 @@ export default (props) => (
     </Nav>
   </Navbar.Collapse>
 </Navbar>
+</header>
 )

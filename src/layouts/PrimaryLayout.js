@@ -6,6 +6,7 @@ import SEO from "../components/SEO"
 const PrimaryLayout = (props) => (
     <div>
     <Header />
+    <main>
      <div className="container">
        <div className="row justify-content-md-center">
          <div className={props.column}>
@@ -13,6 +14,7 @@ const PrimaryLayout = (props) => (
          </div>
        </div>
      </div>
+     </main>
      <Footer />
    </div>
 );
