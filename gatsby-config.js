@@ -28,7 +28,19 @@ module.exports = {
       hostingWPCOM: false,
     },
   },
-  `gatsby-plugin-react-helmet`
+  `gatsby-plugin-react-helmet`,
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `Awesome React`,
+      short_name: `AwesomeR`,
+      start_url: `/`,
+      background_color: `#f8f9fa`,
+      theme_color: `#ffffff`,
+      display: `standalone`,
+    },
+  },
+  `gatsby-plugin-offline`
   ],
 }
 
